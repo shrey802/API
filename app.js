@@ -66,5 +66,5 @@ app.get("/news/:newspaperID", async(req, res) => {
   })
 })
 app.listen("3000", (req, res) => {
-  console.log("port started")
+  console.log("port started");
 })
